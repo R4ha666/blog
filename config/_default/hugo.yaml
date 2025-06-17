@@ -4,18 +4,26 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: Рахман Курбанов
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://R4ha666.github.io/'
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: ru
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+languages:
+  en:
+    weight: 1
+    title: "Rahman Kurbanov"
+  ru:
+    weight: 2
+    title: "Рахман Курбанов"
 
 ############################
 ## ADVANCED
@@ -25,8 +33,7 @@ build:
   writeStats: true
 enableGitInfo: false
 summaryLength: 30
-pagination:
-  pagerSize: 10
+paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
